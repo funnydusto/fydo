@@ -1,6 +1,44 @@
 body {
-    background: fixed;
-    background-image: url(https://i.imgur.com/RLbKn5A.png);
+    background-color: rgb(36, 16, 52);
     font-family: sans-serif;
     color: white;
 }
+
+  #left {
+    background-image: url(dacportfoliobg1.png);
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 48px;
+    gap: 0px;
+
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+
+  #right {
+    background-image: url(projects.png);
+    background-size: cover;
+
+    width:  50%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+  }
+
+  h1, h2, p {
+    width: 864px;
+    line-height: auto;
+    flex: none;
+  }
+
+  a {
+    color:white;
+  }
