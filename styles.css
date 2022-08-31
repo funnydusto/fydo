@@ -34,7 +34,7 @@ body {
   }
 
   h1, h2, p {
-    width: 864px;
+    width: auto;
     line-height: auto;
     flex: none;
   }
