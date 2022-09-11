@@ -4,14 +4,14 @@ body {
     color: white;
 }
 
-  #left {
+  #center {
     background-image: url(dacportfoliobg1.png);
     background-size: cover;
     
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     padding: 0px 48px;
     gap: 0px;
 
@@ -19,17 +19,6 @@ body {
     height: 100%;
     position: absolute;
     left: 0px;
-    top: 0px;
-  }
-
-  #right {
-    background-image: url(projects.png);
-    background-size: cover;
-
-    width:  50%;
-    height: 100%;
-    position: absolute;
-    left: 50%;
     top: 0px;
   }
 
