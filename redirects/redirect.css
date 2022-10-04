@@ -3,6 +3,6 @@ body {
     font-family: sans-serif;
     color: white;
     display: flex;
-    justify-contents: center;
+    justify-content: center;
     text-align: center;
 }
