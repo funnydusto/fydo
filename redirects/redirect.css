@@ -6,4 +6,13 @@ body {
     flex-direction: column;
     gap: 12px;
     justify-content: center;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #e8bfff;
 }
