@@ -1,33 +1,30 @@
+/* Body & Essentials */
+
 body {
-    background-color: rgb(36, 16, 52);
+    background-image: url(dacportfoliobg1.png);
+    background-size: cover;
     font-family: sans-serif;
     color: white;
 }
-
-  #center {
-    background-image: url(dacportfoliobg1.png);
-    background-size: cover;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 48px;
-    gap: 0px;
-
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    left: 0px;
-    top: 0px;
+  p {
+    font-size: 12pt;
   }
-
-  h1, h2, p {
-    width: auto;
-    line-height: auto;
-    flex: none;
-  }
-
   a {
     color:white;
+  }
+
+  /* Announcement Card */
+
+  #announcement {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 12px;
+
+    background: #F49526;
+    box-shadow: 0px 8px 48px rgba(8, 4, 9, 0.5);
+    border-radius: 24px;
+
   }
