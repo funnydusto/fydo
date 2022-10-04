@@ -3,7 +3,8 @@ body {
     font-family: sans-serif;
     color: white;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    gap: 12px;
     justify-content: center;
     text-align: center;
 }
