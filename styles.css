@@ -73,8 +73,18 @@ body {
     background: linear-gradient(293.96deg, #745531 0%, #5E3174 100%);
   }
 
-  /* Frequently Asked */
+  /* Frequently Asked Card */
 
   #frequentlyasked {
     background: linear-gradient(293.96deg, #743165 0%, #5E3174 100%);
+  }
+
+  /* What's Happening Card */
+
+  #whatshappening {
+    background: linear-gradient(293.96deg, #363174 0%, #5E3174 100%);
+  }
+
+  #freelancing {
+    background: linear-gradient(293.96deg, #317448 0%, #5E3174 100%);
   }
