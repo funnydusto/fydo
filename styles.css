@@ -14,9 +14,14 @@ body {
   }
 
   /* Announcement Card */
+  /* Optional, use in cases of emergency, news, or getting the word out on something. */
+  /* Making it invisible/hidden is easy, just set 'visibility: hidden' and 'display: none'. */
+  /* If you have something to say however, just set 'visibility: visible' and 'display: flex'. */
+  /* Feel free to customize the colors as well, however the standard gold is best. */
 
   #announcement {
-    display: flex;
+    visibility: hidden;
+    display: none;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -54,9 +59,13 @@ body {
     align-items: center;
     padding: 0px;
 
-    width: 276px;
-    height: 24px;
+    width: auto;
+    max-height: 24px;
     font-size: 20pt;
+  }
+
+  .cardbox a {
+    text-decoration-line: underline;
   }
   /* Portfolio Card */
 
@@ -66,4 +75,6 @@ body {
 
   /* Frequently Asked */
 
-  #frequentlyasked
+  #frequentlyasked {
+    background: linear-gradient(293.96deg, #743165 0%, #5E3174 100%);
+  }
