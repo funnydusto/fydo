@@ -3,7 +3,7 @@
 body {
     background-image: url(../media/dacportfoliobg1.png);
     background-size: cover;
-    font-family: sans-serif;
+    font-family: Inter, sans-serif;
     color: white;
 }
   p {
@@ -65,7 +65,7 @@ body {
   }
 
   .cardbox a {
-    text-decoration-line: underline;
+    text-decoration-line: none;
   }
 
   /* Profile Card */
@@ -166,6 +166,39 @@ body {
     height: 34px;
   }
 
+  #nameuserprofile h2 {
+    width: 106px;
+    height: 19px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+  }
+
+  #nameuserprofile h4 {
+    width: 75px;
+    height: 15px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #9F9F9F;
+    
+  }
+
   /* Status */
 
   #statususerprofile {
@@ -182,6 +215,21 @@ body {
     border-radius: 4px 12px 12px 12px;
   }
 
+  #statususerprofile p {
+    width: 200px;
+    height: 15px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+  }
   /* About */
 
   #aboutprofile {
@@ -194,6 +242,37 @@ body {
     width: 334px;
     height: 131px;
   }
+
+  #aboutprofile h2 {
+    width: 334px;
+    height: 24px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+  }
+
+  #aboutprofile p {
+    width: 334px;
+    height: 95px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+  }
+
   /* Portfolio Card */
 
   #portfolio {
