@@ -1,7 +1,7 @@
 /* Body & Essentials */
 
 body {
-    background-image: url(dacportfoliobg1.png);
+    background-image: url(../media/dacportfoliobg1.png);
     background-size: cover;
     font-family: sans-serif;
     color: white;
@@ -88,7 +88,8 @@ body {
     width: 358px;
     height: 150px;
     
-    background: url(themines2k.png);
+    background: url(../media/projects.png);
+    background-size: cover;
     border-width: 5px 5px 0px 5px;
     border-style: solid;
     border-color: #5E3174;
