@@ -82,13 +82,16 @@ body {
     filter: drop-shadow(0px 8px 48px rgba(8, 4, 9, 0.5));
   }
 
+  /* Profile Banner */
+  /* Feel free to change it whenever, personalize it to your liking by editing the 'background: url()' rule. */
+
   #profilebanner {
     box-sizing: border-box;
 
     width: 358px;
     height: 150px;
     
-    background: url(../media/projects.png);
+    background: url(../media/dacportfoliobg1.png);
     background-size: cover;
     border-width: 5px 5px 0px 5px;
     border-style: solid;
@@ -96,6 +99,8 @@ body {
     border-radius: 24px 24px 0px 0px;
     
   }
+  /* Profile Content */
+  /* Parent of the profile information */
 
   #profilecontent {
     display: flex;
@@ -107,12 +112,88 @@ body {
     width: 358px;
     height: 300px;
     
-    /* meadow/darker */
-    
     background: #5F3174;
     border-radius: 0px 0px 24px 24px;
   }
 
+  /* Profile Content */
+  /* Home to the display name, username, profile picture, and status */
+
+  #userprofile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    
+    width: 332px;
+    height: 100px;
+  }
+
+  #userprofilepicture {
+    box-sizing: border-box;
+
+    width: 100px;
+    height: 100px;
+    
+    background: url(../media/placeholder.png);
+    border: 5px solid #4E2562;
+  }
+
+  /* Home to display name, username, and status */
+
+  #insideuserprofile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    
+    width: 220px;
+    height: 73px;
+  }
+  
+  /* Display name and username */
+
+  #nameuserprofile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 106px;
+    height: 34px;
+  }
+
+  /* Status */
+
+  #statususerprofile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 6px 10px;
+    gap: 10px;
+    
+    width: 220px;
+    height: 27px;
+    
+    background: #4E2562;
+    border-radius: 4px 12px 12px 12px;
+  }
+
+  /* About */
+
+  #aboutprofile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    width: 334px;
+    height: 131px;
+  }
   /* Portfolio Card */
 
   #portfolio {
