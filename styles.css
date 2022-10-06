@@ -1,33 +1,296 @@
+/* Body & Essentials */
+
 body {
-    background-color: rgb(36, 16, 52);
-    font-family: sans-serif;
+    background-image: url(../media/dacportfoliobg1.png);
+    background-size: cover;
+    font-family: Inter, sans-serif;
     color: white;
 }
-
-  #center {
-    background-image: url(dacportfoliobg1.png);
-    background-size: cover;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 48px;
-    gap: 0px;
-
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    left: 0px;
-    top: 0px;
+  p {
+    font-size: 12pt;
   }
-
-  h1, h2, p {
-    width: auto;
-    line-height: auto;
-    flex: none;
-  }
-
   a {
     color:white;
+  }
+
+  /* Announcement Card */
+  /* Optional, use in cases of emergency, news, or getting the word out on something. */
+  /* Making it invisible/hidden is easy, just set 'visibility: hidden' and 'display: none'. */
+  /* If you have something to say however, just set 'visibility: visible' and 'display: flex'. */
+  /* Feel free to customize the colors as well, however the standard gold is best. */
+
+  #announcement {
+    visibility: hidden;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 12px;
+
+    width: 1058px;
+    height: 48px;
+    background-color: #F49526;
+    color: #000000;
+    box-shadow: 0px 8px 48px rgba(8, 4, 9, 0.5);
+    border-radius: 24px;
+
+  }
+
+  /* Cards */
+
+  .cardbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 12px 12px;
+    gap: 12px;
+
+    width: 300px;
+    height: 200px;
+    box-shadow: 0px 8px 48px rgba(8, 4, 9, 0.5);
+    border-radius: 24px;
+  }
+
+  .cardboxheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+    width: auto;
+    max-height: 24px;
+    font-size: 20pt;
+  }
+
+  .cardbox a {
+    text-decoration-line: none;
+  }
+
+  /* Profile Card */
+
+  #profile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 358px;
+    height: 450px;
+
+    filter: drop-shadow(0px 8px 48px rgba(8, 4, 9, 0.5));
+  }
+
+  /* Profile Banner */
+  /* Feel free to change it whenever, personalize it to your liking by editing the 'background: url()' rule. */
+
+  #profilebanner {
+    box-sizing: border-box;
+
+    width: 358px;
+    height: 150px;
+    
+    background: url(../media/dacportfoliobg1.png);
+    background-size: cover;
+    border-width: 5px 5px 0px 5px;
+    border-style: solid;
+    border-color: #5E3174;
+    border-radius: 24px 24px 0px 0px;
+    
+  }
+  /* Profile Content */
+  /* Parent of the profile information */
+
+  #profilecontent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 24px;
+    
+    width: 358px;
+    height: 300px;
+    
+    background: #5F3174;
+    border-radius: 0px 0px 24px 24px;
+  }
+
+  /* Profile Content */
+  /* Home to the display name, username, profile picture, and status */
+
+  #userprofile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    
+    width: 332px;
+    height: 100px;
+  }
+
+  #userprofilepicture {
+    box-sizing: border-box;
+
+    width: 100px;
+    height: 100px;
+    
+    background: url(../media/placeholder.png);
+    border: 5px solid #4E2562;
+  }
+
+  /* Home to display name, username, and status */
+
+  #insideuserprofile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    
+    width: 220px;
+    height: 73px;
+  }
+  
+  /* Display name and username */
+
+  #nameuserprofile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 106px;
+    height: 34px;
+  }
+
+  #nameuserprofile h2 {
+    width: 106px;
+    height: 19px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+  }
+
+  #nameuserprofile h4 {
+    width: 75px;
+    height: 15px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #9F9F9F;
+    
+  }
+
+  /* Status */
+
+  #statususerprofile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 6px 10px;
+    gap: 10px;
+    
+    width: 220px;
+    height: 27px;
+    
+    background: #4E2562;
+    border-radius: 4px 12px 12px 12px;
+  }
+
+  #statususerprofile p {
+    width: 200px;
+    height: 15px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+  }
+  /* About */
+
+  #aboutprofile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    width: 334px;
+    height: 131px;
+  }
+
+  #aboutprofile h2 {
+    width: 334px;
+    height: 24px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+  }
+
+  #aboutprofile p {
+    width: 334px;
+    height: 95px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+  }
+
+  /* Portfolio Card */
+
+  #portfolio {
+    background: linear-gradient(293.96deg, #745531 0%, #5E3174 100%);
+  }
+
+  /* Frequently Asked Card */
+
+  #frequentlyasked {
+    background: linear-gradient(293.96deg, #743165 0%, #5E3174 100%);
+  }
+
+  /* What's Happening Card */
+
+  #whatshappening {
+    background: linear-gradient(293.96deg, #363174 0%, #5E3174 100%);
+  }
+
+  #freelancing {
+    background: linear-gradient(293.96deg, #317448 0%, #5E3174 100%);
   }
