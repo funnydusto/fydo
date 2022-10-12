@@ -17,7 +17,6 @@ body {
     justify-content: center;
     margin: 48px;
     max-width: 60%;
-    height: 100%;
   }
 
   #picture {
@@ -53,7 +52,6 @@ body {
   
     #content {
       min-height: 80%;
-      width: 100%;
       align-items: center;
       justify-content: center;
     }
