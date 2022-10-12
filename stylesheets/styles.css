@@ -23,9 +23,8 @@ body {
     display: flex;
     min-width: 40%;
     width: auto;
-    height: 100%;
+    height: max-content;
     align-self: flex-end;
-    overflow: hidden;
     border-image: fill;
   }
 
