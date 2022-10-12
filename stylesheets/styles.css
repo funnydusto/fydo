@@ -12,12 +12,16 @@ body {
     display: flex;
     flex-direction: column;
     padding: auto;
+    justify-content: center;
+    margin: 24px;
     max-width: 60%;
+    height: 100%;
   }
 
   #picture {
     display: flex;
     min-width: 40%;
+    height: 100%;
     align-self: flex-end;
   }
 
