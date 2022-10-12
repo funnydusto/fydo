@@ -21,14 +21,13 @@ body {
   }
 
   #picture {
-    background-image: url(../media/projects.png);
-    background-size: cover;
     display: flex;
     min-width: 40%;
     width: auto;
     height: 100%;
     align-self: flex-end;
     overflow: hidden;
+    border-image: fill;
   }
 
   h1 {
@@ -56,6 +55,7 @@ body {
       min-height: 80%;
       width: 100%;
       align-items: center;
+      justify-content: center;
     }
 
     h1, h2, p {
