@@ -27,6 +27,7 @@ body {
     min-width: 40%;
     height: 100%;
     align-self: flex-end;
+    margin: 0px;
   }
 
   h1 {
@@ -62,7 +63,9 @@ body {
   
     #picture {
       min-height: 20%;
+      max-height: 100%;
       width: 100%;
       justify-self: flex-end;
+      margin: 0px;
     }
   }
