@@ -1,6 +1,6 @@
 body {
     background-image: url(../media/background.png);
-    background-size: cover;
+    background-size: contain;
     font-family: sans-serif;
     color: white;
 
@@ -22,7 +22,7 @@ body {
 
   #picture {
     background-image: url(../media/projects.png);
-    background-size: cover;
+    background-size: contain;
     display: flex;
     min-width: 40%;
     height: 100%;
@@ -38,7 +38,7 @@ body {
   }
 
   p {
-    font-size 12px;
+    font-size: 18px;
   }
 
   a {
