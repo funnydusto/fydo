@@ -9,6 +9,7 @@ body {
     width: 100%;
     margin: 24px;
 }
+
   #content {
     display: flex;
     flex-direction: column;
@@ -16,7 +17,7 @@ body {
     justify-content: center;
     margin: 24px;
     max-width: 60%;
-    height: fit-content;
+    height: 100%;
   }
 
   #picture {
@@ -40,4 +41,20 @@ body {
 
   a {
     color:white;
+  }
+
+  @media screen and (max-width: 1000px) {
+    body {
+      flex-direction: column;
+    }
+  
+    #content {
+      min-height: 80%;
+      width: auto;
+    }
+  
+    #picture {
+      min-height: 20px;
+      width: auto;
+    }
   }
