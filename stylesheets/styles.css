@@ -5,7 +5,7 @@ body {
 }
 
   #center {
-    background-image: url(dacportfoliobg1.png);
+    background-image: url(../media/background.png);
     background-size: cover;
     
     display: flex;
