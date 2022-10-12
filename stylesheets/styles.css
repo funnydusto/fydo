@@ -3,6 +3,10 @@ body {
     background-size: cover;
     font-family: sans-serif;
     color: white;
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
   #content {
     display: flex;
