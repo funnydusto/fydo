@@ -1,6 +1,6 @@
 body {
     background-image: url(../media/background.png);
-    background-size: contain;
+    background-size: cover;
     font-family: sans-serif;
     color: white;
 
@@ -22,7 +22,7 @@ body {
 
   #picture {
     background-image: url(../media/projects.png);
-    background-size: contain;
+    background-size: cover;
     display: flex;
     min-width: 40%;
     height: 100%;
@@ -63,5 +63,6 @@ body {
     #picture {
       min-height: 20%;
       width: 100%;
+      justify-self: flex-end;
     }
   }
