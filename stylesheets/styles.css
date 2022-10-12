@@ -7,7 +7,6 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin: 24px;
 }
 
   #content {
@@ -15,7 +14,7 @@ body {
     flex-direction: column;
     padding: auto;
     justify-content: center;
-    margin: 24px;
+    margin: 48px;
     max-width: 60%;
     height: 100%;
   }
@@ -27,7 +26,6 @@ body {
     min-width: 40%;
     height: 100%;
     align-self: flex-end;
-    margin: 0px;
   }
 
   h1 {
@@ -66,6 +64,5 @@ body {
       max-height: 100%;
       width: 100%;
       justify-self: flex-end;
-      margin: 0px;
     }
   }
