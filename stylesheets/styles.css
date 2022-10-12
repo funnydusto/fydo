@@ -1,5 +1,5 @@
 body {
-    background-color: url(../media/background.png);
+    background-image: url(../media/background.png);
     background-size: cover;
     font-family: sans-serif;
     color: white;
@@ -13,8 +13,8 @@ body {
 
   #picture {
     display: flex;
-    max-width: 60%;
-    align-items: flex-end;
+    min-width: 40%;
+    align-self: flex-end;
   }
 
   h1 {
