@@ -1,31 +1,32 @@
 body {
-    background-color: rgb(36, 16, 52);
+    background-color: url(../media/background.png);
+    background-size: cover;
     font-family: sans-serif;
     color: white;
 }
-
-  #center {
-    background-image: url(../media/background.png);
-    background-size: cover;
-    
+  #content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 48px;
-    gap: 0px;
-
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    left: 0px;
-    top: 0px;
+    padding: auto;
+    max-width: 60%;
   }
 
-  h1, h2, p {
-    width: auto;
-    line-height: auto;
-    flex: none;
+  #picture {
+    display: flex;
+    max-width: 60%;
+    align-items: flex-end;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size 12px;
   }
 
   a {
