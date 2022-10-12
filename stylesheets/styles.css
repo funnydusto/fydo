@@ -21,6 +21,8 @@ body {
   }
 
   #picture {
+    background-image: url(../media/projects.png);
+    background-size: cover;
     display: flex;
     min-width: 40%;
     height: fit-content;
@@ -51,6 +53,11 @@ body {
     #content {
       min-height: 80%;
       width: auto;
+      align-items: center;
+    }
+
+    h1, h2, p {
+      text-align: center;
     }
   
     #picture {
