@@ -1,0 +1,46 @@
+/* (i) This page is marked as an EARLY release! (i) */
+/* ------------------------------------------------ */
+/* This release is in active development. This release
+     might be unstable until then. If you notice any
+     issues, please open an issue over on Github. */
+
+/* (i) This page is non-standard to documentation. (i) */
+/* --------------------------------------------------- */
+/* This page is a non-standard demo page, used for
+     development purposes only. If you're seeing this, then
+     you found yourself a sneak peek into fydo.me's past! */
+
+body {
+    background-color: #241034;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+/* Text */
+h1 {
+    font-family: 'Montserrat', 'Noto Sans', sans-serif;
+    font-weight: bold;
+    line-height: 0in;
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* Buttons */
+.sclbutton {
+    width: 64px;
+    height: 64px;
+    padding: 12px;
+
+    background-color: #9944C0;
+    border-radius: 12px;
+    border: 0px none;
+}
+
+.sclbutton:hover {
+    border: 6px solid #ffffff;
+    transition-duration: 300ms;
+}
