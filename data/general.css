@@ -1,0 +1,114 @@
+/* (i) This page is marked as an EARLY release! (i) */
+/* ------------------------------------------------ */
+/* This release is in active development. This release
+     might be unstable until then. If you notice any
+     issues, please open an issue over on Github. */
+
+/* (i) This page is non-standard to documentation. (i) */
+/* --------------------------------------------------- */
+/* This page is a non-standard demo page, used for
+     development purposes only. If you're seeing this, then
+     you found yourself a sneak peek into fydo.me's past! */
+
+body {
+    background-color: #241034;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 64px;
+    margin-left: 128px;
+}
+
+/* Text */
+h1 {
+    font-family: 'Montserrat', 'Noto Sans', sans-serif;
+    font-weight: bold;
+    line-height: 0in;
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* Buttons */
+#socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+}
+
+.sclbutton {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+
+    background-color: #9944C0;
+    border-radius: 12px;
+    border: 0px none;
+}
+
+.sclbutton:hover {
+    background-color: #5F3174;
+    transition-duration: 300ms;
+}
+
+.sclbutton:focus {
+    outline: 4px solid white;
+}
+
+/* Product Cards */
+#products {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    margin-left: -10vw;
+    padding-left: 10vw;
+    gap: 32px;
+    z-index: 0;
+    scrollbar-color: #9944C0;
+}
+
+.prdcard {
+    width: 533px;
+    aspect-ratio: 16/9;
+    border-radius: 12px;
+    z-index: 3;
+}
+
+.prdcard:hover {
+    filter: brightness(70%);
+    transition-duration: 300ms;
+}
+
+.prdcard:focus {
+    outline: 8px solid white;
+    border-radius: 12px;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        text-align: center;
+        padding: 0px;
+        align-content: center;
+        justify-content: center;
+        margin: 48px;
+    }
+
+    #socials {
+        align-items: center;
+        justify-content: center;
+    }
+
+    #products {
+        align-items: center;
+        flex-direction: column;
+        overflow: visible;
+    }
+
+    .prdcard {
+        width: 100%
+    }
+}
