@@ -1,8 +1,3 @@
 {
     "cleanUrls": true
   }
-
-  {
-    "redirects": [
-      { "source": "/lounge", "destination": "https://discord.gg/A3wQWfKVyk" },
-    }
